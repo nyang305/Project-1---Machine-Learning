@@ -41,12 +41,20 @@ python3 user.py
 Follow the prompts:
 
 File Path: Enter the path to your CSV dataset.
+
 Task Type: Type classification or regression.
+
 Target Column: Specify the name of the target column.
+
 Numeric Columns: Provide a comma-separated list of numeric feature names.
+
 Categorical Columns: Provide a comma-separated list of categorical feature names.
 
 ### Output
 The script will perform 5×2 cross-validation and print out performance metrics:
+
 For classification: Fold accuracies, average accuracy, and null model accuracy.
-For regression: Fold MSE values, average MSE, and null model MSE. Additionally, demonstration outputs will show sample predictions (including the nearest neighbors for a chosen test point) for the null model, k-NN, and condensed k-NN.
+
+For regression: Fold MSE values, average MSE, and null model MSE. 
+
+Additionally, demonstration outputs will show sample predictions (including the nearest neighbors for a chosen test point) for the null model, k-NN, and condensed k-NN.
